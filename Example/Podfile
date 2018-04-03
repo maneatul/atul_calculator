@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'atul_calculator_Example' do
+  pod 'atul_calculator', :path => '../'
+
+  target 'atul_calculator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
