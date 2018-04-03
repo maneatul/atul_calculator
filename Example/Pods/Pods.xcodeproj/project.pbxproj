@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06495AECBC8E1CFF437EC2FC85FAE9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A27BD20ACFB91777EC76AF5E6B7896F /* atul_calculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4087AA9E25ED3A2EFEA029752C139581 /* atul_calculator-dummy.m */; };
+		2AB27E5692D9FA691395B82193BCC492 /* Pods-atul_calculator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EC32D2A9798BEC0B17C23BF0E68DA4 /* Pods-atul_calculator_Example-dummy.m */; };
+		358220894BA77BC031D5226B67DF58EA /* atul_calculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDFACEFD2A259EE153B5AD25F155053 /* atul_calculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEC03FBE336D9A66022BCAAB3CEE580 /* Pods-atul_calculator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C7B89558457F541B79BE028A48CEE7 /* Pods-atul_calculator_Tests-dummy.m */; };
+		AF10B271931AA73CBE8C5E8F85A59B88 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A375852D9FCA1EA3372F647ACFC162 /* ReplaceMe.swift */; };
+		CA1E83D200F68AF73ADCF29016DD73A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDCBE2190F2B23BE098F772EBEE2CA85 /* Pods-atul_calculator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A21172C4173ED90464486476EEA449CC /* Pods-atul_calculator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58F3587EA876E0F919C321384CAEA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F60D5EFC6DA138459FE91F1BC55BFA68 /* Pods-atul_calculator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1913A757DAE4D2C860D949E1BB93322F /* Pods-atul_calculator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B557A2DF7ED3D6C43B4C7D21B942335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3796E80D316BE66CA40842B13987997;
+			remoteInfo = atul_calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02286CD8E10D95964DF9EBCCBEA254A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F0D9601280322586799AEA489261766 /* Pods-atul_calculator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-atul_calculator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1913A757DAE4D2C860D949E1BB93322F /* Pods-atul_calculator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-atul_calculator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F4A2BEF3E781675B3F422602E256536 /* Pods_atul_calculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_atul_calculator_Example.framework; path = "Pods-atul_calculator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231DD1CE742DDF7FAD852EFF9ECCFC48 /* atul_calculator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = atul_calculator.xcconfig; sourceTree = "<group>"; };
+		26AA0BBC24D01C0B83C20FE121CE96BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		29D229644133E7B65873E2F2E18FA8A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2E34B8FF16F0B7610B869344D57F4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDFACEFD2A259EE153B5AD25F155053 /* atul_calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "atul_calculator-umbrella.h"; sourceTree = "<group>"; };
+		31A375852D9FCA1EA3372F647ACFC162 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = atul_calculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4087AA9E25ED3A2EFEA029752C139581 /* atul_calculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "atul_calculator-dummy.m"; sourceTree = "<group>"; };
+		48D7A65E6B7DD0D9B8F4FB3463A15F21 /* Pods-atul_calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-atul_calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C6BA2D62E43FDD9E92329D228D2C276 /* atul_calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = atul_calculator.modulemap; sourceTree = "<group>"; };
+		56F76D45B4EBBE1520CD399A2BCA1994 /* atul_calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = atul_calculator.framework; path = atul_calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E7E08CA9570C6399CBBC03929FB7D /* Pods-atul_calculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-atul_calculator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		675DBCF23111A8F600A96DA380D80EF5 /* atul_calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = atul_calculator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6ABB035EFE64D20C93D818A6F31EB46F /* atul_calculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "atul_calculator-prefix.pch"; sourceTree = "<group>"; };
+		7A7FBCAD66EB96376A9B263D1C403A80 /* Pods-atul_calculator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-atul_calculator_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B1A0AF53D592BE3001289075FCE4B35 /* Pods-atul_calculator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-atul_calculator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8ED813950E7A3AB21FFF6F4E635A1893 /* Pods-atul_calculator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-atul_calculator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F61111298A6B015FCD1DECF7A1264A4 /* Pods-atul_calculator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-atul_calculator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9795A80B732F71552A39AF00E1D70F9B /* Pods-atul_calculator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-atul_calculator_Example.modulemap"; sourceTree = "<group>"; };
+		9E2E11D43D73DB15C14CC3C9F539A426 /* Pods_atul_calculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_atul_calculator_Tests.framework; path = "Pods-atul_calculator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21172C4173ED90464486476EEA449CC /* Pods-atul_calculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-atul_calculator_Example-umbrella.h"; sourceTree = "<group>"; };
+		A212BE1D710D38007518EDDCEB3F5BEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EC32D2A9798BEC0B17C23BF0E68DA4 /* Pods-atul_calculator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-atul_calculator_Example-dummy.m"; sourceTree = "<group>"; };
+		A6C7B89558457F541B79BE028A48CEE7 /* Pods-atul_calculator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-atul_calculator_Tests-dummy.m"; sourceTree = "<group>"; };
+		B0AE533FA48A49DC075AD05CC5680378 /* Pods-atul_calculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-atul_calculator_Tests.modulemap"; sourceTree = "<group>"; };
+		D7FC831560DAC50A7341F8BE6C6AA70F /* Pods-atul_calculator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-atul_calculator_Example-resources.sh"; sourceTree = "<group>"; };
+		F2EB5BF4F367A32FD8AC7C9F6173A11A /* Pods-atul_calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-atul_calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F833CE215D076F35D83C41ACAAE03ACA /* Pods-atul_calculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-atul_calculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCA50958074BE9C2BB2FE184A5784290 /* Pods-atul_calculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-atul_calculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFB7DECA0E6E31F000B48094E1A80252 /* Pods-atul_calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-atul_calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9FA51BC8E18FD25B55FC3EBE10173E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E83D200F68AF73ADCF29016DD73A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCCA1F647AA1A35FA92C4F4C088F855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58F3587EA876E0F919C321384CAEA4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112AD05A5216610C9C9BC51A6E2CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06495AECBC8E1CFF437EC2FC85FAE9C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126EE39A883EE8DEE8A48E8DD63651AC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				675DBCF23111A8F600A96DA380D80EF5 /* atul_calculator.podspec */,
+				26AA0BBC24D01C0B83C20FE121CE96BA /* LICENSE */,
+				02286CD8E10D95964DF9EBCCBEA254A3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5FFFFF6A551399F6A62EE60C738D3E1A /* Pods-atul_calculator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2E34B8FF16F0B7610B869344D57F4E /* Info.plist */,
+				B0AE533FA48A49DC075AD05CC5680378 /* Pods-atul_calculator_Tests.modulemap */,
+				8F61111298A6B015FCD1DECF7A1264A4 /* Pods-atul_calculator_Tests-acknowledgements.markdown */,
+				F833CE215D076F35D83C41ACAAE03ACA /* Pods-atul_calculator_Tests-acknowledgements.plist */,
+				A6C7B89558457F541B79BE028A48CEE7 /* Pods-atul_calculator_Tests-dummy.m */,
+				8B1A0AF53D592BE3001289075FCE4B35 /* Pods-atul_calculator_Tests-frameworks.sh */,
+				7A7FBCAD66EB96376A9B263D1C403A80 /* Pods-atul_calculator_Tests-resources.sh */,
+				1913A757DAE4D2C860D949E1BB93322F /* Pods-atul_calculator_Tests-umbrella.h */,
+				48D7A65E6B7DD0D9B8F4FB3463A15F21 /* Pods-atul_calculator_Tests.debug.xcconfig */,
+				FFB7DECA0E6E31F000B48094E1A80252 /* Pods-atul_calculator_Tests.release.xcconfig */,
+			);
+			name = "Pods-atul_calculator_Tests";
+			path = "Target Support Files/Pods-atul_calculator_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DB612D760A506DF4E7377490A0422C5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9083343B87BE112E3875B7B1793D0DF4 /* Products */,
+				8AD6A2C5B0D143196FCF3D2E5D76AFBC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB612D760A506DF4E7377490A0422C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B127CC86CC1FEC4DDE79A71535E7FE /* atul_calculator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8AD6A2C5B0D143196FCF3D2E5D76AFBC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8796842D569C2CF7FEB3B0D0DCB9294 /* Pods-atul_calculator_Example */,
+				5FFFFF6A551399F6A62EE60C738D3E1A /* Pods-atul_calculator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9083343B87BE112E3875B7B1793D0DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F76D45B4EBBE1520CD399A2BCA1994 /* atul_calculator.framework */,
+				1F4A2BEF3E781675B3F422602E256536 /* Pods_atul_calculator_Example.framework */,
+				9E2E11D43D73DB15C14CC3C9F539A426 /* Pods_atul_calculator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B127CC86CC1FEC4DDE79A71535E7FE /* atul_calculator */ = {
+			isa = PBXGroup;
+			children = (
+				31A375852D9FCA1EA3372F647ACFC162 /* ReplaceMe.swift */,
+				126EE39A883EE8DEE8A48E8DD63651AC /* Pod */,
+				FF6BD0E94D764F2C35D9EAC1A1815179 /* Support Files */,
+			);
+			name = atul_calculator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8796842D569C2CF7FEB3B0D0DCB9294 /* Pods-atul_calculator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A212BE1D710D38007518EDDCEB3F5BEB /* Info.plist */,
+				9795A80B732F71552A39AF00E1D70F9B /* Pods-atul_calculator_Example.modulemap */,
+				8ED813950E7A3AB21FFF6F4E635A1893 /* Pods-atul_calculator_Example-acknowledgements.markdown */,
+				FCA50958074BE9C2BB2FE184A5784290 /* Pods-atul_calculator_Example-acknowledgements.plist */,
+				A3EC32D2A9798BEC0B17C23BF0E68DA4 /* Pods-atul_calculator_Example-dummy.m */,
+				0F0D9601280322586799AEA489261766 /* Pods-atul_calculator_Example-frameworks.sh */,
+				D7FC831560DAC50A7341F8BE6C6AA70F /* Pods-atul_calculator_Example-resources.sh */,
+				A21172C4173ED90464486476EEA449CC /* Pods-atul_calculator_Example-umbrella.h */,
+				F2EB5BF4F367A32FD8AC7C9F6173A11A /* Pods-atul_calculator_Example.debug.xcconfig */,
+				645E7E08CA9570C6399CBBC03929FB7D /* Pods-atul_calculator_Example.release.xcconfig */,
+			);
+			name = "Pods-atul_calculator_Example";
+			path = "Target Support Files/Pods-atul_calculator_Example";
+			sourceTree = "<group>";
+		};
+		FF6BD0E94D764F2C35D9EAC1A1815179 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BA2D62E43FDD9E92329D228D2C276 /* atul_calculator.modulemap */,
+				231DD1CE742DDF7FAD852EFF9ECCFC48 /* atul_calculator.xcconfig */,
+				4087AA9E25ED3A2EFEA029752C139581 /* atul_calculator-dummy.m */,
+				6ABB035EFE64D20C93D818A6F31EB46F /* atul_calculator-prefix.pch */,
+				2FDFACEFD2A259EE153B5AD25F155053 /* atul_calculator-umbrella.h */,
+				29D229644133E7B65873E2F2E18FA8A0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/atul_calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25C2CF2760CD6F2FACF400FBE6714BA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60D5EFC6DA138459FE91F1BC55BFA68 /* Pods-atul_calculator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34DFB97013387A8E3EF8998140693E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCBE2190F2B23BE098F772EBEE2CA85 /* Pods-atul_calculator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4A2FB487C08D8A6171C466D96BB30C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358220894BA77BC031D5226B67DF58EA /* atul_calculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B20DE5B6F8B638400781EB4A70397140 /* Pods-atul_calculator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F78DE159A2399516ABBB36D4CD7795 /* Build configuration list for PBXNativeTarget "Pods-atul_calculator_Tests" */;
+			buildPhases = (
+				D7D1BBEB243DE292354A9683AAD471FF /* Sources */,
+				7DCCA1F647AA1A35FA92C4F4C088F855 /* Frameworks */,
+				25C2CF2760CD6F2FACF400FBE6714BA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-atul_calculator_Tests";
+			productName = "Pods-atul_calculator_Tests";
+			productReference = 9E2E11D43D73DB15C14CC3C9F539A426 /* Pods_atul_calculator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3796E80D316BE66CA40842B13987997 /* atul_calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1F85544AB4D400F83EB055EC6F5699 /* Build configuration list for PBXNativeTarget "atul_calculator" */;
+			buildPhases = (
+				7934AAA3C16D98F40C6103E53922656D /* Sources */,
+				A112AD05A5216610C9C9BC51A6E2CBDA /* Frameworks */,
+				FD4A2FB487C08D8A6171C466D96BB30C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atul_calculator;
+			productName = atul_calculator;
+			productReference = 56F76D45B4EBBE1520CD399A2BCA1994 /* atul_calculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8C399E4428B7FFC67648FB2BAB0485 /* Pods-atul_calculator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8A193317CC3FBFC5C5A1F95ED44816 /* Build configuration list for PBXNativeTarget "Pods-atul_calculator_Example" */;
+			buildPhases = (
+				DDFAFB1C78C5997688413A664917DDA1 /* Sources */,
+				3F9FA51BC8E18FD25B55FC3EBE10173E /* Frameworks */,
+				9A34DFB97013387A8E3EF8998140693E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748A8EEFF42BEF16C2C451232A37C546 /* PBXTargetDependency */,
+			);
+			name = "Pods-atul_calculator_Example";
+			productName = "Pods-atul_calculator_Example";
+			productReference = 1F4A2BEF3E781675B3F422602E256536 /* Pods_atul_calculator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9083343B87BE112E3875B7B1793D0DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3796E80D316BE66CA40842B13987997 /* atul_calculator */,
+				EB8C399E4428B7FFC67648FB2BAB0485 /* Pods-atul_calculator_Example */,
+				B20DE5B6F8B638400781EB4A70397140 /* Pods-atul_calculator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7934AAA3C16D98F40C6103E53922656D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A27BD20ACFB91777EC76AF5E6B7896F /* atul_calculator-dummy.m in Sources */,
+				AF10B271931AA73CBE8C5E8F85A59B88 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D1BBEB243DE292354A9683AAD471FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC03FBE336D9A66022BCAAB3CEE580 /* Pods-atul_calculator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFAFB1C78C5997688413A664917DDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB27E5692D9FA691395B82193BCC492 /* Pods-atul_calculator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		748A8EEFF42BEF16C2C451232A37C546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = atul_calculator;
+			target = C3796E80D316BE66CA40842B13987997 /* atul_calculator */;
+			targetProxy = 5B557A2DF7ED3D6C43B4C7D21B942335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		085B3B5030F87A34E03C00F993D1BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645E7E08CA9570C6399CBBC03929FB7D /* Pods-atul_calculator_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-atul_calculator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-atul_calculator_Example/Pods-atul_calculator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_atul_calculator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42102A7FC455BD0BE35C29AF92949479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231DD1CE742DDF7FAD852EFF9ECCFC48 /* atul_calculator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/atul_calculator/atul_calculator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/atul_calculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/atul_calculator/atul_calculator.modulemap";
+				PRODUCT_NAME = atul_calculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DDE533A96E1D54C7991FC473DC93EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EB5BF4F367A32FD8AC7C9F6173A11A /* Pods-atul_calculator_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-atul_calculator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-atul_calculator_Example/Pods-atul_calculator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_atul_calculator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E75FFD22CC98573EDC80FCA29DE6505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D7A65E6B7DD0D9B8F4FB3463A15F21 /* Pods-atul_calculator_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-atul_calculator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-atul_calculator_Tests/Pods-atul_calculator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_atul_calculator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B26079A5588D6FA20C81E7627817DE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231DD1CE742DDF7FAD852EFF9ECCFC48 /* atul_calculator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/atul_calculator/atul_calculator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/atul_calculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/atul_calculator/atul_calculator.modulemap";
+				PRODUCT_NAME = atul_calculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBF01797A5DC566153EBA963C971AEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB7DECA0E6E31F000B48094E1A80252 /* Pods-atul_calculator_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-atul_calculator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-atul_calculator_Tests/Pods-atul_calculator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_atul_calculator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1F85544AB4D400F83EB055EC6F5699 /* Build configuration list for PBXNativeTarget "atul_calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42102A7FC455BD0BE35C29AF92949479 /* Debug */,
+				B26079A5588D6FA20C81E7627817DE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8A193317CC3FBFC5C5A1F95ED44816 /* Build configuration list for PBXNativeTarget "Pods-atul_calculator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDE533A96E1D54C7991FC473DC93EB7 /* Debug */,
+				085B3B5030F87A34E03C00F993D1BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F78DE159A2399516ABBB36D4CD7795 /* Build configuration list for PBXNativeTarget "Pods-atul_calculator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E75FFD22CC98573EDC80FCA29DE6505 /* Debug */,
+				FBF01797A5DC566153EBA963C971AEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

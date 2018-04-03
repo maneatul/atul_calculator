@@ -31,7 +31,7 @@
 		01AE8FD4CAAEDF6525764E6A /* Pods-atul_calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atul_calculator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atul_calculator_Tests/Pods-atul_calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0654BC4B5B42527CA3AEC350 /* Pods_atul_calculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atul_calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3F2062BDE505DDE674CB60 /* Pods-atul_calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atul_calculator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atul_calculator_Example/Pods-atul_calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		526B88DCB2DD9780FA47118C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		526B88DCB2DD9780FA47118C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* atul_calculator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atul_calculator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* atul_calculator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atul_calculator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61FBECA6419C82BFE40CB227 /* atul_calculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = atul_calculator.podspec; path = ../atul_calculator.podspec; sourceTree = "<group>"; };
+		61FBECA6419C82BFE40CB227 /* atul_calculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = atul_calculator.podspec; path = ../atul_calculator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2F28CDA0A70A101AA58380D /* Pods_atul_calculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atul_calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AF3D1099DC816460963F07 /* Pods-atul_calculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atul_calculator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-atul_calculator_Example/Pods-atul_calculator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC96BBCD059964E6C1512F3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC96BBCD059964E6C1512F3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBCAC6627B2C22744749357C /* Pods-atul_calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atul_calculator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-atul_calculator_Tests/Pods-atul_calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

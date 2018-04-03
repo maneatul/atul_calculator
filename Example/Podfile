@@ -4,6 +4,7 @@ target 'atul_calculator_Example' do
   pod 'atul_calculator', :path => '../'
 
   target 'atul_calculator_Tests' do
+    pod 'atul_calculator', :path => '../'
     inherit! :search_paths
 
     

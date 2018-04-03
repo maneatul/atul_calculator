@@ -1,0 +1,6 @@
+framework module atul_calculator {
+  umbrella header "atul_calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

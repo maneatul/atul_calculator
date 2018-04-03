@@ -1,0 +1,16 @@
+PODS:
+  - atul_calculator (0.1.0)
+
+DEPENDENCIES:
+  - atul_calculator (from `../`)
+
+EXTERNAL SOURCES:
+  atul_calculator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  atul_calculator: cfbfc45c6a6b82096019575ddeda14f86714de6e
+
+PODFILE CHECKSUM: 293ac69569e24b5cd9c5fe5a2c401fa73184c993
+
+COCOAPODS: 1.4.0

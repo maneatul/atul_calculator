@@ -1,0 +1,22 @@
+{
+  "name": "atul_calculator",
+  "version": "0.1.0",
+  "summary": "A short description of atul_calculator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maneatul/atul_calculator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maneatul": "maneatul95@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/maneatul/atul_calculator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "atul_calculator/Classes/**/*"
+}
